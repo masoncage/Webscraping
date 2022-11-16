@@ -57,10 +57,11 @@ for row in table_rows[1:6]:
     
     print("Price 24 hours ago :","${:,.4f}". format(previous_price))
     print()
-    print()
+    
     
     import keys2
     from twilio.rest import Client
+    
 
     client = Client(keys2.accountSID, keys2.authToken)
 
